@@ -6,7 +6,7 @@ After some research on how to build HTML email templates, I decided to approach 
 
 ## Process
 1. Analyse the design: I created a rough wireframe of the design using Figma and printed it. This allowed me to reflect on all the components of the design and reusable features whilst noting aside components' characteristics and class names. It also helped me to visualise and break down a table-based layout.
-2. Development process: I started coding the HTML template using a separate stylesheet. Then, I moved my CSS in my HTML within <style>.
+2. Development process: I started coding the HTML template using a separate stylesheet whilst checking the progress using a live server. Then, I moved my CSS in my HTML within <style>.
 3. Build: I used an inliner tool to move my CSS inline. I then sent myself the email so I could see what needed to be fixed and proceeded to apply the necessary changes.
   
 ## Tools Used
@@ -17,4 +17,5 @@ Resources:
 
 Tools:
 - Chrome DevTools for debugging and responsiveness
+- LiveServer
 - https://putsmail.com/tests/new (CSS Inliner and testing)
