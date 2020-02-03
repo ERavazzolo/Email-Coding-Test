@@ -1,5 +1,5 @@
 # Email Coding Test
-This is a coding test project: Build a responsive email
+https://eravazzolo.github.io/Email-Coding-Test/
 
 ## Approach
 After some research on how to build HTML email templates, I decided to approach the project using a table-based layout as it still seems to be the most supported method, although not without some downsides, such as the loss of more semantic markup.
