@@ -8,7 +8,7 @@
     <!--<![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <!--<link rel="stylesheet" type="text/css" href="stylecss" />-->
+    <!--<link rel="stylesheet" type="text/css" href="styles.css" />-->
     <style type="text/css">
         body, * {
             margin: 0;
@@ -50,13 +50,11 @@
         }
         .wrapper {
             width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
             table-layout: fixed;
             -webkit-text-size-adjust: 100%;
             -ms-text-size-adjust: 100%;
-        }
-        .webkit {
-            max-width: 600px;
-            margin: 0 auto;
         }
         .outer-table {
             margin: 0 auto;
@@ -178,19 +176,19 @@
 </head>
 
 <body>
-    <center class="wrapper">
-        <div class="webkit">
-            <!--[if (gte mso 9)|(IE)]>
-            <table width="600" align="center">
+    <div class="wrapper">
+        <!--[if (gte mso 9)|(IE)]>
+        <table width="600" align="center">
             <tr>
-            <td>
-            <![endif]-->
-            <table class="outer-table" align="center">
+                <td>
+        <![endif]-->
+        <table class="outer-table" cellspacing="0" cellpadding="0" align="center">
+            <tr>
                 <td>
                     
                     <!-- START TABLE (We can't wait to let it go)-->
                     
-                    <table width="100%">
+                    <table width="100%" cellspacing="0" cellpadding="0">
                         <tr>
                             <td>
                                 <p>We can't wait to let it go</p>
@@ -203,7 +201,7 @@
 
                     <!-- HEADER/HERO SECTION -->
 
-                    <table width="100%">
+                    <table width="100%" cellspacing="0" cellpadding="0">
                         <tr>
                             <td class="logo-cell">
                                 <img src="https://pngimg.com/uploads/walt_disney/walt_disney_PNG38.png" class="logo"
@@ -211,7 +209,7 @@
                             </td>
                         </tr>
                     </table>
-                    <table width="100%">
+                    <table width="100%" cellspacing="0" cellpadding="0">
                         <tr>
                             <td class="full-width-image header-img">
                                 <img src="https://stagechat.co.uk/ts/800/450/wp-content/uploads/2019/03/frozen-london-west-end-2020-4.jpg" width="600" alt=""/>
@@ -221,13 +219,13 @@
 
                     <!-- MAIN CONTENT TABLE -->
 
-                    <table width="100%" class="main-table" bgcolor="#193A81">
+                    <table width="100%" cellspacing="0" cellpadding="0" class="main-table" bgcolor="#193A81">
                         <tr>
                             <td>
 
-                                <!-- MAIN TEXT --> 
+                                <!-- MAIN CONTENT TEXT --> 
 
-                                <table align="center">
+                                <table align="center" cellspacing="0" cellpadding="0">
                                     <tr>
                                         <td class="main-text">
                                             <h1>The show everyone's talking about!</h1>
@@ -238,7 +236,7 @@
 
                                 <!-- CTA TABLE -->
 
-                                <table align="center" class="cta-table">
+                                <table align="center" cellspacing="0" cellpadding="0" class="cta-table">
                                     <tr>
                                         <td class="cta-btn" bgcolor="#ffffff">
                                             <a href="https://github.com/ERavazzolo/Email-Coding-Test">Find out more!</a>
@@ -246,9 +244,9 @@
                                     </tr>
                                 </table>
 
-                                <!-- BORDERED IMAGE TABLE --> 
+                                <!-- BORDERED IMAGE --> 
 
-                                <table align="center" class="inner-img-table">
+                                <table align="center" cellspacing="0" cellpadding="0" class="inner-img-table">
                                     <tr>
                                         <td class="full-width-image inner-img">
                                             <img src="https://media.timeout.com/images/104086544/630/472/image.jpg" width="500" alt="" />
@@ -256,9 +254,9 @@
                                     </tr>
                                 </table>
 
-                                <!-- MAIN TEXT -->  
+                                <!-- MAIN CONTENT TEXT - 2nd PART -->  
 
-                                <table align="center">
+                                <table align="center" cellspacing="0" cellpadding="0">
                                     <tr>
                                         <td class="main-text">
                                             <h1>Did you know</h1>
@@ -272,7 +270,7 @@
 
                     <!-- MAIN FULL WIDTH IMAGE -->
                     
-                    <table width="100%" align="center" class="main-img-last">
+                    <table width="100%" align="center" class="main-img-last" cellspacing="0" cellpadding="0">
                         <tr>
                             <td class="full-width-image">
                                 <img src="https://www.whatsonstage.com/s/wos-photos-production/133488.jpg" width="600" alt="" />
@@ -282,13 +280,13 @@
 
                     <!-- FOOTER TABLE-->
                     
-                    <table width="100% align="center">
+                    <table width="100%" align="center" cellspacing="0" cellpadding="0">
                         <tr>
                             <td>
 
                                 <!-- LOGOS TABLE-->
 
-                                <table class="logos" width="70%">
+                                <table class="logos" width="70%" cellspacing="0" cellpadding="0">
                                     <tr>
                                         <td align="center">
                                             <img class="foot-logo" src="https://vignette.wikia.nocookie.net/logopedia/images/c/ce/Disney.svg/revision/latest/scale-to-width-down/340?cb=20181129051319" width="70" alt="disney" />
@@ -308,9 +306,9 @@
                                     </tr>
                                 </table>
 
-                                <!-- FOOT TEXT TABLE-->
+                                <!-- FOOTER SOCIALS + TEXT SECTION-->
 
-                                <table class="footer-text">
+                                <table class="footer-text" cellspacing="0" cellpadding="0">
                                     <tr>
                                         <td class="social-icon" align="center">
                                             <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-128.png" width="25px" alt="facebook">
@@ -345,7 +343,7 @@
                                             <p>
                                                 &copy; Disney<br>
                                                 &copy; Disney &bullet; Pixar<br>
-                                                &copy; & &TRADE; Lucasfilm LTD<br>
+                                                &copy; &TRADE; Lucasfilm LTD<br>
                                                 &copy; Marvel
                                             </p>
                                         </td>
@@ -357,14 +355,14 @@
                     </table>
 
                 </td>
-            </table>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
             </tr>
-            </table>
-            <![endif]-->
-        </div>
-    </center>
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </div>
 </body>
 
 </html>
